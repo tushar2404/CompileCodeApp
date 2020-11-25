@@ -1,0 +1,34 @@
+<html><head>
+	<title>Compiler</title>
+	<link rel="stylesheet" href="style.css">
+	</link>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body >
+    <div class="container">
+        <div>
+            <h2>Type Your Code Here</h2>
+        </div>
+        <div class="opt">
+            <select name="language" id="option">
+                <option value="0">Python</option>
+                <option value="4"">javascript</option>
+                <option value="7">C</option>
+                <option value="77">Cpp</option>
+                <option value="8">Java</option>
+            </select>
+        </div>
+    </div>
+	<div style="display:flex;">
+		<textarea class="rownr" rows="10" cols="1" value="1" readonly=""></textarea>
+			<textarea class="txt" rows="10" cols="150" placeholder="#Type Your Code Here"></textarea><br><br>
+	</div>
+    <div id="ans" class="ans">Output:</div>
+<button id="comp" class="btn btn-warning">Compile</button>
+</body>
+<script language="javascript" src="script.js"></script>
+</html>
